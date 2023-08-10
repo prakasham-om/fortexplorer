@@ -120,11 +120,11 @@ alert:'0'
                                             <div className="col-4">
                                                 <label >Developer:</label>
                                                 <div className='d-flex'>
-                                                <p className='paraId '>{e.id}</p><button className='btn'><i class="bi bi-files btn "></i></button>
+                                                <p className='paraId '>{e.id}</p><i class="bi bi-files hover"></i>
                                             </div>
                                             </div>
                                             <div className="col-4">
-                                                <label >ALERTs:</label>
+                                                <label >ALERTS:</label>
                                                 <p>{e.alert}</p>
                                             </div>
                                             <div className="col-4">
