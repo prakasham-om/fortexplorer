@@ -74,7 +74,7 @@ alert:'0'
                 
                 <div className="row">
                     <div className="col">
-                <div className='container overflow-hidden'>
+                <div className='container-fluid overflow-hidden'>
                 <div className="row">
                     <div className="col">
                      <div className="row d-flex">
@@ -116,7 +116,7 @@ alert:'0'
                                                 <p className='mt-3'>{e.descr}</p>
                                             </div>
                                         </div>
-                                        <div className="row">
+                                        <div className="row d-flex">
                                             <div className="col-4">
                                                 <label >Developer:</label>
                                                 <div className='d-flex'>
@@ -162,8 +162,8 @@ alert:'0'
                     </div>
                 </div>
                 <div className="d-flex justify-content-between mt-5">
-                       <div className='d-none d-md-block'>©️ 2023 Forta Foundation</div>
-                       <div className='text-center'>Discord-Terms of Service-Privacy Policy</div>
+                       <div className='d-none d-md-block text-dark'>©️ 2023 Forta Foundation</div>
+                       <div className='text-center text-dark'>Discord-Terms of Service-Privacy Policy</div>
                 </div>
                 </div>
                 </div>
@@ -171,6 +171,6 @@ alert:'0'
             </div>
         </>
     );
-}
+} 
 
 export default Hello;

@@ -6,7 +6,7 @@ const Heroes = () => {
        <div className="container-fluid mt">
         <div className="row">
             <div className="col">
-                <div className="container overflow-hidden">
+                <div className="container-fluid overflow-hidden">
        
         <div className="row">
                 <div className="col-lg-8 order-1 ">
@@ -25,9 +25,9 @@ const Heroes = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4  order-md-1 mb-2 ">
+                <div className="col-lg-4  order-lg-1 mb-2 ">
                 <button className=" btn  text-center rounded text-light btn-outline-light ">
-                        <h5 className='p-1 text'>Build your own bots <i class="bi bi-box-arrow-up-right"></i></h5>
+                        <h5 className='p-1 text'>Build your own bot &nbsp; <i class="bi bi-box-arrow-up-right"></i></h5>
                 </button>
                 
                 </div>
