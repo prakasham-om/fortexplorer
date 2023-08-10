@@ -1,38 +1,131 @@
-.App {
+.icon-white{
+  color:white
+}
+.left{
+  float: left;
+}
+.heroes{
+
+  margin-top: 5rem;
+}
+.containers{
+  width: 170px;
+  margin-left: 25px;
+  
+}
+.mt{
+  margin-top: 7rem;
+}
+.fs-1{
+  font-size: x-large;
+}
+span{
+  color: rgb(52, 11, 176);
+}
+.card-body1{
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  min-width: 70%;
+  min-height: 30%;
+}
+.text{
+  font-size: medium;
   text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#button-addon2{
+  background-color: rgb(47, 47, 205);
+  height: 50px;
+  width: 60px;
+  color: white;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn-grp{
+position: relative;
+height: 40px;
+min-width: 120px;
+color: white;
+border-radius: 170px;
+text-align: center;
+font-size: small;
+overflow: hidden;
+}
+.btn-grp:nth-child(1){
+  background-color: gray;
+}
+.btn-grp:nth-child(2){
+  background-color: rgb(47, 46, 46);
+  
+}
+.btn-grp:nth-child(3){
+  background-color: transparent;
+  border: 0.5px solid white;
+  min-width: 160px;
+}
+.paraId{
+  margin: 0;
+  width: 30%;
+  height: 20px;
+  text-size-adjust: small;
+  overflow: hidden;
+}
+.card{
+  background-color: rgb(59, 58, 58);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.bi-files{
+  color: gray;
+}
+.gnrl{
+  min-width: 30%;
+  min-height: 27px;
+  border:2px solid rebeccapurple;
+  background-color: transparent;
+  color: white;
+  font-size: medium;
+  font: bold;
+  margin-left:2rem
+}
+.title{
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.imgs{
+  width: 3.5%;
+  height: 3.5%;
+  border-radius: 50%;
+  padding: 1px;
+}
+
+
+.greens{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: green;
+}
+
+.nav-btn{
+  min-width:20% ;
+  font-size: medium;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+
+  
+}
+.navbtn-txt{
+  font-size: medium;
+  margin-top: .5rem;
+  font: bold;
+}
+nav{
+  height: 6rem;
+}
+.navbar-toggler{
+  border: none;
+  color: white;
+  
 }
