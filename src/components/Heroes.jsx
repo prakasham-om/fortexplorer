@@ -11,7 +11,7 @@ const Heroes = () => {
                         <div className="col-12">
                         <h1 className='fs-1 fw-bold'>Detection <span>Bots</span></h1>
                         </div>
-                        <div className="col-lg-10 mt-2">
+                        <div className="col-lg-10 mt-2 description">
                             <h5>Forta comprises a decentralized network of independent bots that scan all transactions and block-by-block state changes for threats and anomalies. When an issue is detected, scan bots send alerts to subscribers, which enables them to take action</h5>
                         </div>
                         <div className="col-lg-8 ">

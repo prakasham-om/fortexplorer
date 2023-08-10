@@ -17,7 +17,17 @@
   margin-top: 7rem;
 }
 .fs-1{
-  font-size: x-large;
+  
+  font-weight: 700;
+  font-style: normal;
+  font-size: 42px;
+}
+.description{
+  font-weight: 400;
+    font-size: 17px;
+    line-height: 140%;
+    font-style: normal;
+    color: #71717a;
 }
 span{
   color: rgb(52, 11, 176);
