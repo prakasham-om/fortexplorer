@@ -7,7 +7,7 @@ const Navbar=()=>{
 
     <nav class="navbar navbar-light bg-dark navbar-expand-sm fixed-top  ">
     
-        <div className="container d-flex justyfi-content-between">
+        <div className="container d-flex justyfi-content-between overflow-hidden">
             <div>
         <img src="	https://explorer.forta.network/forta_explorer_logo.svg " className='img-fluid containers' alt="" />
         

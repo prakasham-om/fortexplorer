@@ -88,14 +88,16 @@ overflow: hidden;
   color: gray;
 }
 .gnrl{
-  min-width: 30%;
+  min-width: 25%;
   min-height: 27px;
   border:2px solid rebeccapurple;
   background-color: transparent;
   color: white;
   font-size: medium;
   font: bold;
-  margin-left:2rem
+  margin-left:.5rem;
+  margin-top: -.5rem;
+
 }
 .title{
   width: 100%;

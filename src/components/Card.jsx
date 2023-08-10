@@ -74,7 +74,7 @@ alert:'0'
                 
                 <div className="row">
                     <div className="col">
-                <div className='container'>
+                <div className='container overflow-hidden'>
                 <div className="row">
                     <div className="col">
                      <div className="row d-flex">
@@ -89,8 +89,8 @@ alert:'0'
                                         <div className="col">
                                          <div className="card-body">
                                             <div className='d-flex'>
-                                             <p className='paraId mt-1'>{e.id}</p>
-                                                <button className='btn btn-outline-none'>  <i class="bi bi-files "></i></button>
+                                             <p className='paraId '>{e.id}</p>
+                                                <span>  <i class="bi bi-files "></i></span>
                                                     <button className='gnrl rounded-pill btn text-center'>General Data</button>
                                                     </div>
                                     
