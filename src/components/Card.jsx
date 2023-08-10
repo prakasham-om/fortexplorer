@@ -83,8 +83,8 @@ alert:'0'
                             console.log(e.id)
                             return(
                                 <>
-                                <div className="col-lg-6">
-                                 <div className="card mb-4 p-4 ml-lg-4 mr-lg-4 ">
+                                <div className="col-md-6">
+                                 <div className="card mb-4 p-4 ml-md-4 mr-mr-4 ">
                                      <div className="row">
                                         <div className="col">
                                          <div className="card-body">
