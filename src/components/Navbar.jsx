@@ -5,7 +5,7 @@ const Navbar=()=>{
     return(
     <>
 
-    <nav class="navbar navbar-light  navbar-expand-sm fixed-top  ">
+    <nav class="navbar navbar-light  navbar-expand-lg fixed-top  ">
     
         <div className="container d-flex justyfi-content-between overflow-hidden">
             <div>

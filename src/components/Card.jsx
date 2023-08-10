@@ -129,9 +129,15 @@ alert:'0'
                                             </div>
                                             <div className="col-4">
                                                 <label >STATUS:</label>
-                                                <div className="d-flex">
-                                                <div className='greens mt-2 '></div>&nbsp;<p>Enabled</p>
-                                                </div>
+                                                    <div className="row">
+                                                        <div className="col d-flex">
+                                                        
+                                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Location_dot_green.svg/1024px-Location_dot_green.svg.png" alt="" className=' greens' />
+                                                    <p className='status-txt'>Enabled</p>
+                                                    </div>
+                                    
+                                                    </div>
+                                                
                                             </div>
                                         </div>
                                         </div>
