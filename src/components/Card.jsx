@@ -72,9 +72,9 @@ alert:'0'
         <>
             <div className="container-fluid mt-3  ">
                 
-
-               
-                
+                <div className="row">
+                    <div className="col">
+                <div className='container'>
                 <div className="row">
                     <div className="col">
                      <div className="row d-flex">
@@ -144,7 +144,7 @@ alert:'0'
                                         
                                     </div>
                                     </div>
-                                    
+                                
                                 </div> 
                                 </>
                             )
@@ -159,7 +159,9 @@ alert:'0'
                        <div className='d-none .d-lg-block .d-xl-none'>©️ 2023 Forta Foundation</div>
                        <div>Discord-Terms of Service-Privacy Policy</div>
                 </div>
-               
+                </div>
+                </div>
+              </div>
             </div>
         </>
     );

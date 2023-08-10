@@ -4,9 +4,12 @@ const Heroes = () => {
     return (
        <>
        <div className="container-fluid mt">
+        <div className="row">
+            <div className="col">
+                <div className="container">
        
         <div className="row">
-                <div className="col-lg-10 ">
+                <div className="col-lg-8 ">
                     <div className="row">
                         <div className="col-12">
                         <h1 className='fs-1 fw-bold'>Detection <span>Bots</span></h1>
@@ -22,7 +25,7 @@ const Heroes = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-2 cols-md active ">
+                <div className="col-lg-4 cols-md active ">
                 <button className="card-body1 btn  text-center rounded ">
                         <h5 className='p-1 text'>Build your own bots <i class="bi bi-box-arrow-up-right"></i></h5>
                 </button>
@@ -41,7 +44,9 @@ const Heroes = () => {
 
         </div>
        </div>
-      
+       </div>
+    </div>
+    </div>
        </>
     );
 }
