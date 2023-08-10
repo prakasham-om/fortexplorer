@@ -4,7 +4,7 @@ const Heroes = () => {
     return (
        <>
        <div className="container-fluid mt">
-        <div className='contain'>
+       
         <div className="row">
                 <div className="col-lg-10 ">
                     <div className="row">
@@ -41,7 +41,7 @@ const Heroes = () => {
 
         </div>
        </div>
-       </div>
+      
        </>
     );
 }
