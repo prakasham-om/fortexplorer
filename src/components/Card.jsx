@@ -89,9 +89,9 @@ alert:'0'
                                         <div className="col">
                                          <div className="card-body">
                                             <div className='d-flex'>
-                                             <p className='paraId'>{e.id}</p>
-                                                <i class="bi bi-files "></i>
-                                                    <div className='gnrl rounded-pill text-center'>General Data</div>
+                                             <p className='paraId mt-1'>{e.id}</p>
+                                                <button className='btn btn-outline-none'>  <i class="bi bi-files "></i></button>
+                                                    <button className='gnrl rounded-pill btn text-center'>General Data</button>
                                                     </div>
                                     
                                             <div className="row">
@@ -120,7 +120,7 @@ alert:'0'
                                             <div className="col-4">
                                                 <label >Developer:</label>
                                                 <div className='d-flex'>
-                                                <p className='paraId '>{e.id}</p><i class="bi bi-files "></i>
+                                                <p className='paraId '>{e.id}</p><button className='btn'><i class="bi bi-files btn "></i></button>
                                             </div>
                                             </div>
                                             <div className="col-4">

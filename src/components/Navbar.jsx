@@ -22,7 +22,7 @@ const Navbar=()=>{
                     <li className='nav-link text-white'>Forta App &nbsp;<i class="bi bi-box-arrow-up-right"></i> </li>
                     
             </ul>
-            <button className='rounded-pill nav-btn mt-1'><h4 className='navbtn-txt'>Subscribe to alert</h4></button>
+            <button className='rounded-pill nav-btn btn mt-1'><h4 className='navbtn-txt'>Subscribe to alert</h4></button>
             </div>
             </div>
         <button className="navbar-toggler d-md-none" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" 

@@ -17,7 +17,7 @@ const Heroes = () => {
                         <div className="col-lg-8 ">
                         <div class="input-group mb-3 mt-3">
                             <input type="text"  placeholder="Search by Bot Name /Bot ID / Developer ID" aria-label="Recipient's username" class="form-control" aria-describedby="button-addon2" />
-                            <button className="btn btn-outline-secondary" type="button" id="button-addon2"><i class="bi bi-search"></i></button>
+                            <button className="btn btn-outline-light" type="button" id="button-addon2"><i class="bi bi-search"></i></button>
     </div>
                         </div>
                     </div>
@@ -33,9 +33,9 @@ const Heroes = () => {
         <div className="row mt-5">
             <div className="col-12">
                 <div className="d-flex gap-2 text-center">
-                    <button className='btn-grp'><i class="bi bi-star-fill"></i>&nbsp;Papular Bots</button>
-                    <button className='btn-grp'><i class="bi bi-filter-left"></i>&nbsp; Recent Bots</button>
-                    <button className='btn-grp'>Discover Protocols &nbsp;<i class="bi bi-box-arrow-up-right"> </i></button>
+                    <button className='btn-grp btn'><i class="bi bi-star-fill"></i>&nbsp;Papular Bots</button>
+                    <button className='btn-grp btn'><i class="bi bi-filter-left"></i>&nbsp; Recent Bots</button>
+                    <button className='btn-grp btn'>Discover Protocols &nbsp;<i class="bi bi-box-arrow-up-right"> </i></button>
                 </div>
             </div>
 
