@@ -156,7 +156,7 @@ alert:'0'
                     </div>
                 </div>
                 <div className="d-flex justify-content-between mt-5">
-                       <div className='d-none .d-lg-block .d-xl-none'>©️ 2023 Forta Foundation</div>
+                       <div className='d-none d-lg-block'>©️ 2023 Forta Foundation</div>
                        <div>Discord-Terms of Service-Privacy Policy</div>
                 </div>
                 </div>

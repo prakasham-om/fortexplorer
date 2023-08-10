@@ -25,7 +25,7 @@ const Heroes = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4  order-md-1 ">
+                <div className="col-lg-4  order-md-1 mb-2 ">
                 <button className="card-body1 btn  text-center rounded ">
                         <h5 className='p-1 text'>Build your own bots <i class="bi bi-box-arrow-up-right"></i></h5>
                 </button>
@@ -38,7 +38,7 @@ const Heroes = () => {
                 <div className="d-flex gap-2 text-center">
                     <button className='btn-grp btn'><i class="bi bi-star-fill"></i>&nbsp;Papular Bots</button>
                     <button className='btn-grp btn'><i class="bi bi-filter-left"></i>&nbsp; Recent Bots</button>
-                    <button className='btn-grp btn'>Discover Protocols &nbsp;<i class="bi bi-box-arrow-up-right"> </i></button>
+                    <button className='btn-grp btn '>Discover Protocols &nbsp;<i class="bi bi-box-arrow-up-right"> </i></button>
                 </div>
             </div>
 
