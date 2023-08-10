@@ -23,7 +23,7 @@ const Heroes = () => {
                     </div>
                 </div>
                 <div className="col-lg-2 cols-md active ">
-                <button className="card-body1  text-center rounded">
+                <button className="card-body1 btn  text-center rounded ">
                         <h5 className='p-1 text'>Build your own bots <i class="bi bi-box-arrow-up-right"></i></h5>
                 </button>
                 
